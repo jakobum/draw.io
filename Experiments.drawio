@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7">
   <diagram name="Page-1" id="A5-di1jbfSgZtlbiAxzU">
-    <mxGraphModel dx="1321" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="nOJs0ttcWJyxmX2IfKug-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="GGMlQo3JAWAbgcUU_75u-2" target="nOJs0ttcWJyxmX2IfKug-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="430" y="225" />
-              <mxPoint x="450" y="225" />
+              <mxPoint x="400" y="260" />
+              <mxPoint x="400" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -40,19 +40,29 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nOJs0ttcWJyxmX2IfKug-3" value="VLAN_10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="240" width="190" height="100" as="geometry" />
+          <mxGeometry x="50" y="210" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nOJs0ttcWJyxmX2IfKug-5" value="VLAN_11" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="50" y="450" width="185" height="100" as="geometry" />
+          <mxGeometry x="100" y="440" width="185" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nOJs0ttcWJyxmX2IfKug-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nOJs0ttcWJyxmX2IfKug-6" target="nOJs0ttcWJyxmX2IfKug-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nOJs0ttcWJyxmX2IfKug-6" value="VLAN_9" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="450" width="176" height="100" as="geometry" />
+          <mxGeometry x="370" y="485" width="176" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nOJs0ttcWJyxmX2IfKug-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="nOJs0ttcWJyxmX2IfKug-10" target="nOJs0ttcWJyxmX2IfKug-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nOJs0ttcWJyxmX2IfKug-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nOJs0ttcWJyxmX2IfKug-10" target="nOJs0ttcWJyxmX2IfKug-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nOJs0ttcWJyxmX2IfKug-10" value="dmz-router" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="400" y="270" width="100" height="30" as="geometry" />
+          <mxGeometry x="350" y="360" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
