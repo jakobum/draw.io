@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7">
-  <diagram name="Page-1" id="A5-di1jbfSgZtlbiAxzU">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7" pages="2">
+  <diagram name="NETWORK" id="A5-di1jbfSgZtlbiAxzU">
     <mxGraphModel dx="991" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -56,6 +56,53 @@
         </mxCell>
         <mxCell id="nOJs0ttcWJyxmX2IfKug-19" value="&lt;div&gt;VLAN_99&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="500" y="380" width="140" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BvpbmBsT-GS0KtW41lCO" name="Page-2">
+    <mxGraphModel dx="991" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-1" value="&lt;div&gt;Visual Arkiv&lt;/div&gt;&lt;div&gt;databas&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="740" width="85" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-2" value="Mapp för import" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=3;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-3" value="Webläsare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;strokeWidth=2;" edge="1" parent="1" source="s3CCRxZcd6HHJHEIpzvw-4" target="s3CCRxZcd6HHJHEIpzvw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;" edge="1" parent="1" source="s3CCRxZcd6HHJHEIpzvw-4" target="s3CCRxZcd6HHJHEIpzvw-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="580" />
+              <mxPoint x="230" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;shadow=1;" edge="1" parent="1" source="s3CCRxZcd6HHJHEIpzvw-4" target="s3CCRxZcd6HHJHEIpzvw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;shadow=1;" edge="1" parent="1" source="s3CCRxZcd6HHJHEIpzvw-4" target="s3CCRxZcd6HHJHEIpzvw-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-4" value="Tjänst för import av bilder" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeWidth=3;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-7" value="&lt;div&gt;VVV databas&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=3;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s3CCRxZcd6HHJHEIpzvw-9" value="iRODS" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="780" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
