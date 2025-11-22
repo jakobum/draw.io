@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.7" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1" pages="4">
   <diagram name="NETWORK" id="A5-di1jbfSgZtlbiAxzU">
     <mxGraphModel dx="1245" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -311,6 +311,50 @@
         </mxCell>
         <mxCell id="F2_LjRGH-CPw1KQPRlsu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2_LjRGH-CPw1KQPRlsu-9" target="F2_LjRGH-CPw1KQPRlsu-30">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="C5zWAzBnmLk8ob2C7YbL" name="Kanban">
+    <mxGraphModel dx="1764" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-7" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;Update VA&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="120" x="760" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Store AIP" vertex="1">
+          <mxGeometry height="200" width="80" x="600" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-9" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Create AIP" vertex="1">
+          <mxGeometry height="200" width="80" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Restructure" vertex="1">
+          <mxGeometry height="200" width="120" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-11" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Finish Accession" vertex="1">
+          <mxGeometry height="200" width="120" x="880" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;Validate&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="120" x="200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;div&gt;Fetch&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="120" x="-120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Store SIP" vertex="1">
+          <mxGeometry height="200" width="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-15" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=light-dark(#000000, #6d5100);" value="Buffer" vertex="1">
+          <mxGeometry height="200" width="80" x="-200" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-16" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Buffer" vertex="1">
+          <mxGeometry height="200" width="80" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-17" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Buffer" vertex="1">
+          <mxGeometry height="200" width="80" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PRcDeQWLusiyhuLnj0H8-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Buffer" vertex="1">
+          <mxGeometry height="200" width="80" x="680" y="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
